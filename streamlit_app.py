@@ -35,12 +35,13 @@ weights = np.array([ 0.81661663,  0.17689642, -0.12729395,  0.14126483,
 bias = 2.0684688668526414
 
 # Prediction
-prediction = float(np.dot(X_norm, weights) + bias)
+if st.button("🔮 Predict"):
+    prediction = float(np.dot(X_norm, weights) + bias)
 
-# Display result
-st.subheader("📈 Predicted Median House Value")
-st.success(f"${prediction:.2f} (in 100,000s USD)")
-st.caption("For example, $2.35 means ~$235,000")
+    # Display result
+    st.subheader("📈 Predicted Median House Value")
+    st.success(f"${prediction:.2f} (in 100,000s USD)")
+    st.caption("For example, $2.35 means ~$235,000")
 
 # Footer
 st.markdown("---")
