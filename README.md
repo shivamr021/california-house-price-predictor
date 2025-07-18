@@ -1,8 +1,3 @@
-Perfect! Here's your complete and professional `README.md` for your GitHub repository:
-
----
-
-````markdown
 # 🏠 California House Price Predictor
 
 This is a **Streamlit-based web app** that uses a **Linear Regression model** trained on the official [California Housing Dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html) to predict the **median house price** for a location in California based on multiple real-world factors.
